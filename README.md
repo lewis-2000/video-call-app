@@ -42,16 +42,6 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/lewis-2000/ChatMistique.git
+   git clone https://github.com/lewis-2000/video-call-app.git
 
    ```
-
-1. **Agora Account Configuration**
-
-- Create an account on agora.io and create an app to generate an APP ID.
-
-* Update APP ID, Temp Token and Channel Name in main.js
-
-```javascript
-let APP_ID = "YOU-APP-ID";
-```
