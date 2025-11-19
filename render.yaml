@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: video-call-app
-    env: node
-    plan: free
-    buildCommand: "npm install"
-    startCommand: "npm start"
-    autoDeploy: true
-

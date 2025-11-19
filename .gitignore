@@ -1,2 +1,7 @@
 # node modules
 node_modules/
+Client/notes/
+.vscode/
+.vs/
+Client/notes.txt
+Client/dev.txt

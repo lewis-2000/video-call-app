@@ -1,15 +1,26 @@
 {
-  "name": "video-call-app",
+  "name": "chatmistique",
   "version": "1.0.0",
-  "description": "A simple video calling application using WebRTC and Socket.io",
-  "author": "Lewis Ng'ang'a",
-  "license": "MIT",
+  "description": "",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewis-2000/ChatMistique.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lewis-2000/ChatMistique/issues"
+  },
+  "homepage": "https://github.com/lewis-2000/ChatMistique#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "socket.io": "^4.7.5"
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
   }
 }

@@ -50,6 +50,7 @@ nav {
   position: fixed;
   width: 400px;
   max-width: 90%;
+  padding: 5px;
   border-radius: 12px;
   background-color: rgba(30, 30, 30, 0.9);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
