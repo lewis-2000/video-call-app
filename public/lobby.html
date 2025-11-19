@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <title>Chat Mistique</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='lobby.css'>
+    <link rel="icon" href="./images/flammyTechLogo.png" type="image/png">
+</head>
+<body>
+
+    <video id="background-hero-video" autoplay muted loop src="./videos/chatMistique-background3.mp4"></video>
+    
+    <main id="lobby-container">
+        <div id="form-container">
+            <div id="form__container__header">
+                <img id="flammyTechLogo" src="./images/flammyTechLogo.png" alt="Flammy Tech Logo">
+                <p> Create OR Join a Room</p>
+            </div>
+
+            <div id="form__content__wrapper">
+                <form id="join-form">
+                    <input type="text" name="invite_link" placeholder="lobbys" required/>
+                    <input type="submit" value="Join Room" />
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+</body>
+
+<script>
+    let form = document.getElementById('join-form')
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault()
+        let inviteCode = e.target.invite_link.value
+        window.location = `index.html?room=${inviteCode}` 
+    })
+</script>
+
+</html>
